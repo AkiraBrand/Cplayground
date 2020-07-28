@@ -1,6 +1,6 @@
 #include <stdio.h>
 
 int main(void) {
-  printf("Hello World\n");
-  return 0;
+  string answer = get_string("whats your name?\n");
+  printf("hello %s\n", answer);
 }
